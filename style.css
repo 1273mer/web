@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum Vitae Inclusivo – María José García</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>María José García</h1>
+        <p>Correo: <a href="mailto:mariajose.pro@example.com">mariajose.pro@example.com</a></p>
+        <p><a href="https://linkedin.com/in/mariajose" target="_blank">LinkedIn</a> |
+           <a href="https://github.com/mariajose" target="_blank">GitHub</a></p>
+        <p>📍 Ciudad de Guatemala, Guatemala</p>
+        <button onclick="ajustarTexto()">Aumentar texto</button>
+    </header>
+
+    <main>
+        <section>
+            <h2>Perfil Profesional</h2>
+            <p>Estudiante de Ingeniería Informática con habilidades en desarrollo web, diseño inclusivo y trabajo en equipo. Interesada en crear soluciones accesibles que generen impacto positivo.</p>
+        </section>
+
+        <section>
+            <h2>Habilidades</h2>
+            <h3>Técnicas</h3>
+            <ul>
+                <li>HTML5, CSS3, JavaScript</li>
+                <li>Git y GitHub</li>
+                <li>Diseño web responsivo</li>
+            </ul>
+            <h3>Blandas</h3>
+            <ul>
+                <li>Comunicación efectiva</li>
+                <li>Trabajo en equipo</li>
+                <li>Resolución de problemas</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Experiencia Académica</h2>
+            <h3>Desarrolladora Web – Blue Doodle Project</h3>
+            <p>📍 Guatemala | 📅 Mar/2024 – May/2024</p>
+            <ul>
+                <li>Diseñé y programé una página web para una pastelería utilizando HTML y CSS.</li>
+                <li>Implementé un diseño adaptable a dispositivos móviles con principios de accesibilidad.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Certificaciones y Cursos</h2>
+            <ul>
+                <li>Curso de Introducción al Desarrollo Web – Platzi (2024)</li>
+                <li>Curso de Diseño Accesible – OpenWebinars (2023)</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Idiomas</h2>
+            <ul>
+                <li>Español – Nativo</li>
+                <li>Inglés – B1 (Intermedio)</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Referencias</h2>
+            <p>Disponibles a solicitud</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 María José García</p>
+    </footer>
+
+    <script>
+        function ajustarTexto() {
+            document.body.style.fontSize = "larger";
+        }
+    </script>
+</body>
+</html>
